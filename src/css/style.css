@@ -1,0 +1,105 @@
+$icon-size:50px;
+
+.navbar{
+    .nav-item{
+         padding-left: 1em !important;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+}
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1
+{
+  background: url('../img/c.jpg');
+  background-size: cover;
+}
+.carousel-img-2
+{
+  background: url('../img/b.jpg');
+  background-size: cover;
+}
+.carousel-img-3
+{
+  background: url('../img/a.jpg');
+  background-size: cover;
+}
+#home-icon{
+  .fa{
+    font-size: $icon-size;
+  }
+}
+#getstarted{
+  position: relative;
+  background: url('../img/d.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+
+  .dark-overlay{
+  background:   rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+}
+
+#home-video{
+  position: relative;
+  background: url('../img/f.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+
+  .dark-overlay{
+  background:   rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .fa{
+    font-size: $icon-size;
+  }
+  }
+}
+#Gallary{
+  img{
+    max-height:250px;
+    min-width: 350px;
+
+  }
+}
+#copyright{
+  background: #000;
+}
+
+
+@media(max-width:767px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    #getstarted{
+      min-height: 300px;
+    }
+}
+@media(max-width:480px){
+.carousel{
+  h2{
+    font-size:2.5rem;
+  }
+}
+#getstarted{
+  min-height: 350px;
+}
+}
